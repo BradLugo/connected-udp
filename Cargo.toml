@@ -1,0 +1,21 @@
+[package]
+name = "connected-udp"
+version = "0.1.0"
+edition = "2021"
+description = "Wrapper for UdpSocket providing a 'connected' UDP socket with a pragmatic API."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/BradLugo/connected-udp"
+documentation = "https://docs.rs/connected-udp"
+keywords = ["udp", "socket", "networking"]
+categories = ["network-programming"]
+rust-version = "1.88"
+
+include = [
+    "Cargo.toml",
+    "README.md",
+    "LICENSE",
+    "src/**",
+]
+
+[dependencies]
